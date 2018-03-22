@@ -49,15 +49,19 @@ class ViewController: UIViewController {
     
     //function is fetching the user data
     func getFBUserData(){
-        if((FBSDKAccessToken.current()) != nil){
             FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
                 if (error == nil){
                     self.dict = result as! [String : AnyObject]
-                    print(result!)
-                    print(self.dict)
+                    let name = self.dict["name"] ?? "" as AnyObject
+                    let picture = (self.dict["picture"]!["data"]) ?? "" as AnyObject
+                    
+                    
+                    let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
+                    profileViewController.name = name as! String
+                    //profileViewController.picture = picture as AnyObject
+                    self.present(profileViewController, animated: true, completion: nil)
                 }
             })
-        }
     }
 
 }

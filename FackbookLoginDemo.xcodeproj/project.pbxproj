@@ -17,6 +17,7 @@
 		F4A1FE4D20637AF200C61C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A1FE4B20637AF200C61C60 /* LaunchScreen.storyboard */; };
 		F4A1FE5820637AF200C61C60 /* FackbookLoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A1FE5720637AF200C61C60 /* FackbookLoginDemoTests.swift */; };
 		F4A1FE6320637AF200C61C60 /* FackbookLoginDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A1FE6220637AF200C61C60 /* FackbookLoginDemoUITests.swift */; };
+		F4DDE3E32063945400491E94 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DDE3E22063945400491E94 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F4A1FE5E20637AF200C61C60 /* FackbookLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FackbookLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A1FE6220637AF200C61C60 /* FackbookLoginDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FackbookLoginDemoUITests.swift; sourceTree = "<group>"; };
 		F4A1FE6420637AF200C61C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DDE3E22063945400491E94 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F6341917C2A1508A84858AD4 /* Pods-FackbookLoginDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FackbookLoginDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FackbookLoginDemoUITests/Pods-FackbookLoginDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 			children = (
 				F4A1FE4220637AF200C61C60 /* AppDelegate.swift */,
 				F4A1FE4420637AF200C61C60 /* ViewController.swift */,
+				F4DDE3E22063945400491E94 /* ProfileViewController.swift */,
 				F4A1FE4620637AF200C61C60 /* Main.storyboard */,
 				F4A1FE4920637AF200C61C60 /* Assets.xcassets */,
 				F4A1FE4B20637AF200C61C60 /* LaunchScreen.storyboard */,
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DDE3E32063945400491E94 /* ProfileViewController.swift in Sources */,
 				F4A1FE4520637AF200C61C60 /* ViewController.swift in Sources */,
 				F4A1FE4320637AF200C61C60 /* AppDelegate.swift in Sources */,
 			);
